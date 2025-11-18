@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chương trình đổi độ dài"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập độ dài"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/spnFromLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:id="@+id/spnToLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnConvertLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi độ dài"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/txtLengthResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay về trang đổi tiền tệ"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
